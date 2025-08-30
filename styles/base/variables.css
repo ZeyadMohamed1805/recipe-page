@@ -1,0 +1,25 @@
+/** Variables **/
+
+:root {
+	/* Color Variables */
+	--white-color: hsl(0, 0%, 100%);
+	--secondary-color-five: hsl(30, 54%, 90%);
+	--secondary-color-four: hsl(30, 18%, 87%);
+	--secondary-color-three: hsl(30, 10%, 34%);
+	--secondary-color-two: hsl(24, 5%, 18%);
+	--secondary-color-one: hsl(14, 45%, 36%);
+	--primary-color-two: hsl(330, 100%, 98%);
+	--primary-color-one: hsl(332, 51%, 32%);
+
+	/* Font Size Variables */
+	--font-size: 16px;
+
+	/* Font Family Variables */
+	--font-family-young-serif: "Young Serif", serif;
+	--font-family-outfit: "Outfit", sans-serif;
+
+	/* Font Weight Variables */
+	--font-weight-regular: 400;
+	--font-weight-medium: 600;
+	--font-weight-bold: 700;
+}

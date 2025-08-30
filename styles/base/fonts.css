@@ -1,0 +1,19 @@
+/** Fonts **/
+
+/* Young Serif Font */
+@font-face {
+	font-family: "Young Serif";
+	src: url("../../assets/fonts/young-serif/YoungSerif-Regular.ttf")
+		format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* Outfit Font */
+@font-face {
+	font-family: "Outfit";
+	src: url("../../assets/fonts/outfit/Outfit-VariableFont_weight.ttf")
+		format("truetype");
+	font-weight: 400 600 700;
+	font-style: normal;
+}

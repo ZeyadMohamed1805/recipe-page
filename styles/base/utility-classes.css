@@ -1,0 +1,17 @@
+/** Utility Classes **/
+
+/* Padding Container */
+.padding-container {
+	padding: 2rem;
+}
+
+/* Flex Column Container */
+.flex-column-container {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Gap Container */
+.gap-container {
+	gap: 1.5rem;
+}
