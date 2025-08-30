@@ -1,0 +1,26 @@
+/** Preparation Time Section **/
+
+/* Preparation Time - Mobile */
+#preparation-time {
+	padding: 0 2rem;
+}
+
+/* Preparation Time - Desktop */
+@media (min-width: 39rem) {
+	#preparation-time {
+		padding: 0;
+	}
+}
+
+/* Preparation Time Container - Mobile */
+#preparation-time-container {
+	background-color: var(--primary-color-two);
+	gap: 8px;
+}
+
+/* Preparation Time Container - Desktop */
+@media (min-width: 39rem) {
+	#preparation-time-container {
+		border-radius: 1rem;
+	}
+}

@@ -33,11 +33,48 @@ h2 {
 	font-size: 1.75rem;
 }
 
+/* Heading Three Reset */
+h3 {
+	color: var(--primary-color-one);
+	font-family: var(--font-family-outfit);
+	font-weight: var(--font-weight-semibold);
+	font-size: 1.125rem;
+}
+
 /* Paragraph Reset */
 p {
 	color: var(--secondary-color-three);
 	font-family: var(--font-family-outfit);
 	font-weight: var(--font-weight-regular);
+}
+
+/* Unordered List Reset */
+ul {
+	padding-left: 0.5rem;
+	font-family: var(--font-family-outfit);
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+/* Unordered List Item Reset */
+li {
+	color: var(--secondary-color-three);
+	padding-left: 1.5rem;
+	position: relative;
+	font-size: 0.875rem;
+}
+
+/* Unordered List Item Before Reset */
+ul li::before {
+	content: var(--bullet-unicode);
+	color: var(--primary-color-one);
+	position: absolute;
+	left: 0;
+	top: 0;
+	transform: translateY(-0.25rem);
+	font-size: 1.25rem;
 }
 
 /** Body **/

@@ -20,6 +20,9 @@
 
 	/* Font Weight Variables */
 	--font-weight-regular: 400;
-	--font-weight-medium: 600;
+	--font-weight-semibold: 600;
 	--font-weight-bold: 700;
+
+	/* Unicode Variables */
+	--bullet-unicode: "\2022";
 }
