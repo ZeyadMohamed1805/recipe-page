@@ -77,6 +77,13 @@ ul li::before {
 	font-size: 1.25rem;
 }
 
+/* Separator Reset */
+hr {
+	border: none;
+	height: 1px;
+	background-color: var(--secondary-color-four);
+}
+
 /** Body **/
 
 /* Body - Mobile */
