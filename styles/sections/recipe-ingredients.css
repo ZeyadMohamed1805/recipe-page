@@ -1,0 +1,13 @@
+/** Recipe Ingredients Section */
+
+/* Recipe Ingredients - Mobile */
+#recipe-ingredients {
+	padding: 0 2rem;
+}
+
+/* Recipe Ingredients - Desktop */
+@media (min-width: 39rem) {
+	#recipe-ingredients {
+		padding: 0;
+	}
+}
