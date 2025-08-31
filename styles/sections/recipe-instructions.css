@@ -1,0 +1,13 @@
+/** Recipe Instructions Section */
+
+/* Recipe Instructions - Mobile */
+#recipe-instructions {
+	padding: 0 2rem;
+}
+
+/* Recipe Instructions - Desktop */
+@media (min-width: 39rem) {
+	#recipe-instructions {
+		padding: 0;
+	}
+}
