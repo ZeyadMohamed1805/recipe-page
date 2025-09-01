@@ -1,0 +1,13 @@
+/** Recipe Nutrition Section */
+
+/* Recipe Nutrition - Mobile */
+#recipe-nutrition {
+	padding: 0 2rem;
+}
+
+/* Recipe Nutrition - Desktop */
+@media (min-width: 39rem) {
+	#recipe-nutrition {
+		padding: 0;
+	}
+}

@@ -99,6 +99,50 @@ hr {
 	background-color: var(--secondary-color-four);
 }
 
+/* Table Reset */
+table {
+	border-collapse: collapse;
+	width: 100%;
+	font-family: var(--font-family-outfit);
+}
+
+/* Table Row */
+tr {
+	border-bottom: 1px solid var(--secondary-color-four);
+}
+
+/* Last Table Row Reset */
+tr:last-child {
+	border-bottom: none;
+}
+
+/* Table Cells Reset */
+th,
+td {
+	font-size: 0.875rem;
+	padding: 0.75rem 0;
+	text-align: left;
+}
+
+/* Table Header Reset */
+th {
+	color: var(--secondary-color-three);
+	font-weight: var(--font-weight-regular);
+	padding-left: 0.75rem;
+}
+
+/* Table Data Reset */
+td {
+	color: var(--primary-color-one);
+	font-weight: var(--font-weight-semibold);
+	padding-left: 0.5rem;
+}
+
+/* Last Table Data In Every Row */
+tr > :last-child {
+	padding-right: 0.75rem;
+}
+
 /** Body **/
 
 /* Body - Mobile */
@@ -119,6 +163,7 @@ body {
 article {
 	background-color: var(--white-color);
 	margin: 0 auto;
+	padding-bottom: 2rem;
 	transition: all 0.2s ease-in-out;
 }
 
