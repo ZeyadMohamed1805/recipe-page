@@ -20,6 +20,7 @@ jobs:
             - name: Copy assets to dist
               run: |
                   cp -r assets dist/
+                  cp assets/images/favicon-32x32.png dist/favicon.ico
 
             - name: Deploy to GitHub Pages
               uses: peaceiris/actions-gh-pages@v4
